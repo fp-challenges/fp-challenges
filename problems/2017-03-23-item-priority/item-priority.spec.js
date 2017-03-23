@@ -66,3 +66,10 @@ expect(sut(items2, categories)).to.deep.equal({
   name : 'The Human Centipede',
   category : 'Cringe Horror'
 }, 'The Human Centipede (yuck)');
+
+expect(sut(items2, [])).to.deep.equal({
+  name : 'The Human Centipede',
+  category : 'Cringe Horror'
+}, 'The Human Centipede (yuck)');
+
+expect(sut([], categories)).to.equal(undefined, 'Cannot select a movie when none given');
