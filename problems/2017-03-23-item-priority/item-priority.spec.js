@@ -45,24 +45,24 @@ const items2 = [
 expect(sut(items, ['Action', 'Drama', 'Comedy', 'Musical', 'Documentary'])).to.deep.equal({
   name : 'The Avengers',
   category : 'Action'
-});
+}, 'Avengers');
 
 expect(sut(items, ['Drama', 'Action', 'Comedy', 'Musical', 'Documentary'])).to.deep.equal({
   name : 'Good Will Hunting',
   category : 'Drama'
-});
+}, 'GWH');
 
 expect(sut(items, ['Documentary', 'Drama', 'Action', 'Comedy', 'Musical'])).to.deep.equal({
   name : 'Food, Inc.',
   category : 'Documentary'
-});
+}, 'Food Inc.');
 
 expect(sut(items, ['Romantic Comedy', 'Musical', 'Action', 'Drama', 'Comedy', 'Documentary'])).to.deep.equal({
   name : 'Les Miserables',
   category : 'Musical'
-});
+}, 'Les Miserables');
 
 expect(sut(items2, categories)).to.deep.equal({
   name : 'The Human Centipede',
   category : 'Cringe Horror'
-});
+}, 'The Human Centipede (yuck)');
