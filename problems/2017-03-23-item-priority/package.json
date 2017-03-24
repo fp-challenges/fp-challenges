@@ -4,12 +4,13 @@
   "description": "Implement a function `getMovie` that figures out which movie is preferred based on a pre-sorted list of preferred categories.",
   "main": "item-priority.js",
   "scripts": {
-    "test": "node item-priority.spec.js"
+    "test": "mocha item-priority.spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   },
   "dependencies": {
     "lodash": "^4.17.4",
