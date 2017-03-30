@@ -1,0 +1,15 @@
+{
+  "name": "know-your-states",
+  "version": "1.0.0",
+  "description": "Exploration of some basic state information",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parse": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Doug Swain (pseudoramble)",
+  "license": "ISC"
+}
