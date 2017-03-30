@@ -15,4 +15,4 @@ const toStateObj = ([state, abbrev, capitalCity, largestCity, _, population, tot
   waterArea: numberify(waterArea)
 });
 
-testModule(parseCsv(dataSet).map(toStateObj));
+testModule(parseCsv(dataSet, { from: 2 }).map(toStateObj));
