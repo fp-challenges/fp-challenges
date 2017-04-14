@@ -8,10 +8,6 @@ In this challenge, you'll be refactoring bits of code that aren't as pure as the
 
 ## General Information
 
-We'll be using JavaScript run on NodeJS for this one. 
-
-There won't be a need for any external packages, aside from the ones you'll need to install to test your code.
-
 As with the other challenges, practicing functional programming is not only encouraged but also required! 
 
 ## Challenge Details and Such
