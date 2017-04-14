@@ -18,6 +18,10 @@ Tim, one of your engineering friends, noticed that some of your JavaScript wasn'
 
 **Your challenge, should you accept it**: Figure out how to fix the test failures.
 
+Execute the tests with the following command
+    
+    npm test
+
 ### Considerations and Things to Think About
 
 1. You may not always be able to refactor functions entirely without changing a few things around.
