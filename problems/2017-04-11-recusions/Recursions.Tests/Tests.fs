@@ -7,27 +7,27 @@ open Expecto
 let fibTests =
   testList "A test for the Fibonacci sequence" [
     testCase "The first number in the sequence is 0" (fun _ ->
-      Expect.isTrue false "Should be true"
+      Expect.equal (Recursions.fib 1) 0 "Not equal"
     )
 
     testCase "The second number in the sequence is 1" (fun _ ->
-      Expect.isTrue false "Should be true"
+      Expect.equal (Recursions.fib 2) 1 "Not equal"
     )
 
     testCase "The sixth number in the sequence is 5" (fun _ ->
-      Expect.isTrue false "Should be true"
+      Expect.equal (Recursions.fib 6) 5 "Not equal"
     )
 
     testCase "The tenth number in the sequence is 34" (fun _ ->
-      Expect.isTrue false "Should be true"
+      Expect.equal (Recursions.fib 10) 34 "Not equal"
     )
 
     testCase "The twentieth number in the sequence is 4181" (fun _ ->
-      Expect.isTrue false "Should be true"
+      Expect.equal (Recursions.fib 20) 4181 "Not equal"
     )
 
     testCase "Negative numbers result in 0" (fun _ ->
-      Expect.isTrue false "Should be true"
+      Expect.equal (Recursions.fib -5) 0 "Not equal"
     )
   ]
 
