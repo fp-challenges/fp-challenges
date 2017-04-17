@@ -1,15 +1,18 @@
 module Recursions
 
-let rec fib n =
-    if n <= 1 then 0
-    elif n < 3 then 1
-    else (fib (n - 2)) + (fib (n - 1))
+let rec isNat (x:float) : bool = 
+    if x < 0.0 then false
+    elif x = 0.0 then true
+    else isNat <| x - 1.0
 
-let map fn lst =
-    []
+let rec fib (n: int) : int =
+    -1
 
-let join sep lst =
-    ""
+let map (fn: 'a -> 'b) (values: 'a list) : 'b list =
+    ["lol"]
+
+let join (sep: string) (values: 'a list) : string =
+    "lol"
 
 [<EntryPoint>]
 let main argv =
