@@ -86,6 +86,7 @@ NUGET
       System.Threading.Timer (>= 4.3) - framework: >= net451, >= netstandard12
       System.Xml.ReaderWriter (>= 4.3) - framework: >= netstandard10
       System.Xml.XDocument (>= 4.3) - framework: >= netstandard10
+    paket.bootstrapper (4.0)
     runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl (4.3) - framework: >= net463, >= netstandard16
     runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl (4.3) - framework: >= net463, >= netstandard16
     runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl (4.3) - framework: >= net463, >= netstandard16

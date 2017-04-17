@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Name>Recursions.Tests</Name>
@@ -39,18 +39,18 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="any\netstandard1.6\FSharp.Core.optdata">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="any\netstandard1.6\FSharp.Core.sigdata">
+      <Paket>True</Paket>
+    </Content>
     <ProjectReference Include="../Recursions/Recursions.fsproj">
       <Name>Recursions.fsproj</Name>
       <Project>{7ccc41d8-f0ab-483e-b16f-df8e9dda1b71}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="any/netstandard1.6/FSharp.Core.optdata">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="any/netstandard1.6/FSharp.Core.sigdata">
-      <Paket>True</Paket>
-    </Content>
     <Compile Include="Tests.fs" />
     <Compile Include="Main.fs" />
     <None Include="App.config" />
