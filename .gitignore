@@ -51,6 +51,7 @@ Debug
 obj
 bin
 any
+packages
 
 # Build results
 [Dd]ebug/
