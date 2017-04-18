@@ -13,8 +13,3 @@ let map (fn: 'a -> 'b) (values: 'a list) : 'b list =
 
 let join (sep: string) (values: 'a list) : string =
     "lol"
-
-[<EntryPoint>]
-let main argv =
-    printfn "%A" argv
-    0 // return an integer exit code
