@@ -52,6 +52,7 @@ obj
 bin
 any
 packages
+.fake
 
 # Build results
 [Dd]ebug/
