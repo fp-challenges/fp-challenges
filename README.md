@@ -1,4 +1,4 @@
-# fp-challenges
+# fp-challenges [![Join us on Slack](https://img.shields.io/badge/slack-join-orange.svg)](http://fp-challenges-slack.herokuapp.com/)
 
 A set of functional programming challenges to solve.
 
@@ -24,3 +24,7 @@ If you would like to submit a problem:
 1. Add a README which explains the goals of the challenge and explains how to run and test the code.
 1. Add any files needed to get started (`index.js`, `Main.fsx`, tests, dependency files like `package.json`, etc).
 1. Submit a PR with the label `enhancement` added. We will discuss and merge it in for others to enjoy!
+
+## Questions, problems, or want to talk solutions?
+
+[Join us on Slack!](http://fp-challenges-slack.herokuapp.com/)
