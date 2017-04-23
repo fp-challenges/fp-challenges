@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+# OS-specific stuff
+*.DS_Store
+
 # Runtime data
 pids
 *.pid
@@ -13,6 +16,9 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+
+### VisualStudioCode ###
+.vscode
 
 # nyc test coverage
 .nyc_output
@@ -35,3 +41,28 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+### F# ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+bin
+any
+packages
+.fake
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+build/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
