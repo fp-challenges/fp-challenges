@@ -10,7 +10,7 @@ But that was ages ago now. You've been developing "for the enterprise" for a lon
       return indx == 0 ? str : reverseArray(x, --indx, (str+= " " + x[indx]));;
     }
 
-You've come to discover that the these hipsters use ternary operators and inline assignments. Good god! These hooligans!
+You've come to discover that the these hipsters use ternary operators and inline assignments. These hooligans!
 More importantly though, you notice this function seems to call itself. It's a recursive function.
 
 The goal of this problem is to implement several functions recursively.
